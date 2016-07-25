@@ -25163,3 +25163,304 @@ Processing by HomeController#index as HTML
   [1m[36mArticle Load (1.9ms)[0m  [1mSELECT `articles`.* FROM `articles`  ORDER BY `articles`.`id` DESC[0m
   Rendered home/index.html.slim within layouts/application (16.7ms)
 Completed 200 OK in 138ms (Views: 114.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-26 01:34:00 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT `articles`.* FROM `articles`  ORDER BY `articles`.`id` DESC[0m
+  Rendered home/index.html.slim within layouts/application (25.2ms)
+Completed 200 OK in 618ms (Views: 577.7ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/accordion.self-5b2b315b0c6b54ba1c4fc97baf8f3ddaf8fb8270e3eeb4d937a43890bc981fb3.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/admin/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/application.self-3168ec0c1fc60989813c2456a311dbecb667fe97e20fb6d0efd6cc4cd0c51606.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/admin/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/admin/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui.self-a4cf495b628cd8e0bce7b5bdeb25ecdea40047189cfac1a2f38c02c15a5d613b.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/api.self-c922da4cea936f144cdb168a8981e37bdd2c599b94666da00c60e1036923bb26.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/colorize.self-2476922ddbacfdd460f30d5501eb4c7954de4d9f74506ac12c3e08507dce4e09.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/form.self-c64f5303255c9cafd53173d39e7638aa76f602526110e0e92b9f421ba3fb1ba1.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/state.self-93ba0c1580fa421c32f44b7940b71f34b0215c9bb35ac89c699f5584e66d8fe6.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/chatroom.self-1377da14b2e061ae5bdaf2f47ef31a696f8dc0db640e5767f626c08b092838b1.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/checkbox.self-2685af0367c108bac15b042d27fc2fd181e5d5275d41c6ed6dce00f383aa24f8.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/dimmer.self-1bebfd34021f07d5355490fc7907e2401f92babf733f827d799fa3b03dcc38fc.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/dropdown.self-3ce82903206f6d7f451795039fe1ed6971a6d332d74286a8c6668f0478121d39.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/modal.self-bdcc423d695140b4de00607580b938134fca266a126c8907ebaf31cbffb8f7cc.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/nag.self-55371c0b498221f6b854e8b826465f96187d73e8d6418331987803b3a3aedcf9.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/popup.self-c15a17b2c8eb07df0e3c026cd896799becfe5634f9ced615c86b17801e32e44f.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/rating.self-15a36de9fdc38b6b8ed6fe1a884d819f42311995acdcecb4fec6778ac22a499e.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/search.self-ca3cda43e4a0f020b8b02f496c06ea81571b3e16609dc7f31eaea5757ed2a86f.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/shape.self-18a5cd03f58fbe28a77c3472bef749ae58e15f2a88bcfa73bc647b63bff9598d.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/sidebar.self-bc50e2ffcdaeb6a5ad2ecabf10ed7c5b126dbaa2fd530e54373249a262af99b7.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/tab.self-0bbde26283e8ac7a56f8bec3ea84d9c319f66ec6e6974b8d8c306d7d04868cc4.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/transition.self-fd8522ed923eea2bca7a7a07a841a693c248f58a28bea8d5f3a45620e0264141.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui/modules/video.self-ab6794dada45e56972b4fe46627ffe75ad6798fcc19464d45fd55b936b87be1c.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/semantic-ui.self-49845c4836a1476d214788cff889c08d33fa1db30f8989214d2d7f81ef885e67.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:01 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-26 01:34:02 +0800
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT `articles`.* FROM `articles`  ORDER BY `articles`.`id` DESC[0m
+  Rendered home/index.html.slim within layouts/application (3.3ms)
+Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/admin/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/accordion.self-5b2b315b0c6b54ba1c4fc97baf8f3ddaf8fb8270e3eeb4d937a43890bc981fb3.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/application.self-3168ec0c1fc60989813c2456a311dbecb667fe97e20fb6d0efd6cc4cd0c51606.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/admin/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/admin/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui.self-a4cf495b628cd8e0bce7b5bdeb25ecdea40047189cfac1a2f38c02c15a5d613b.css?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/api.self-c922da4cea936f144cdb168a8981e37bdd2c599b94666da00c60e1036923bb26.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/colorize.self-2476922ddbacfdd460f30d5501eb4c7954de4d9f74506ac12c3e08507dce4e09.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/form.self-c64f5303255c9cafd53173d39e7638aa76f602526110e0e92b9f421ba3fb1ba1.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/behavior/state.self-93ba0c1580fa421c32f44b7940b71f34b0215c9bb35ac89c699f5584e66d8fe6.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/chatroom.self-1377da14b2e061ae5bdaf2f47ef31a696f8dc0db640e5767f626c08b092838b1.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/checkbox.self-2685af0367c108bac15b042d27fc2fd181e5d5275d41c6ed6dce00f383aa24f8.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/dimmer.self-1bebfd34021f07d5355490fc7907e2401f92babf733f827d799fa3b03dcc38fc.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/dropdown.self-3ce82903206f6d7f451795039fe1ed6971a6d332d74286a8c6668f0478121d39.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/modal.self-bdcc423d695140b4de00607580b938134fca266a126c8907ebaf31cbffb8f7cc.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/nag.self-55371c0b498221f6b854e8b826465f96187d73e8d6418331987803b3a3aedcf9.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/popup.self-c15a17b2c8eb07df0e3c026cd896799becfe5634f9ced615c86b17801e32e44f.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/rating.self-15a36de9fdc38b6b8ed6fe1a884d819f42311995acdcecb4fec6778ac22a499e.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/search.self-ca3cda43e4a0f020b8b02f496c06ea81571b3e16609dc7f31eaea5757ed2a86f.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/shape.self-18a5cd03f58fbe28a77c3472bef749ae58e15f2a88bcfa73bc647b63bff9598d.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/sidebar.self-bc50e2ffcdaeb6a5ad2ecabf10ed7c5b126dbaa2fd530e54373249a262af99b7.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/tab.self-0bbde26283e8ac7a56f8bec3ea84d9c319f66ec6e6974b8d8c306d7d04868cc4.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/transition.self-fd8522ed923eea2bca7a7a07a841a693c248f58a28bea8d5f3a45620e0264141.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui/modules/video.self-ab6794dada45e56972b4fe46627ffe75ad6798fcc19464d45fd55b936b87be1c.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/semantic-ui.self-49845c4836a1476d214788cff889c08d33fa1db30f8989214d2d7f81ef885e67.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-07-26 01:34:03 +0800
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-07-26 01:34:04 +0800
+Processing by Admin::HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered admin/home/index.html.erb within layouts/admin (4.3ms)
+  Rendered template/_header.html.slim (6.2ms)
+Completed 200 OK in 117ms (Views: 114.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-07-26 01:34:05 +0800
+Processing by Admin::HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered admin/home/index.html.erb within layouts/admin (0.0ms)
+  Rendered template/_header.html.slim (0.3ms)
+Completed 200 OK in 93ms (Views: 91.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/articles" for 127.0.0.1 at 2016-07-26 01:34:07 +0800
+Processing by Admin::ArticlesController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  `articles`.* FROM `articles`  ORDER BY `articles`.`id` DESC LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `articles`
+  Rendered admin/articles/index.html.slim within layouts/admin (79.5ms)
+  Rendered template/_header.html.slim (4.9ms)
+Completed 200 OK in 154ms (Views: 149.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2016-07-26 01:34:08 +0800
+Processing by Admin::UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered admin/users/index.html.erb within layouts/admin (0.2ms)
+  Rendered template/_header.html.slim (0.2ms)
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-07-26 01:34:09 +0800
+Processing by Admin::HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered admin/home/index.html.erb within layouts/admin (0.4ms)
+  Rendered template/_header.html.slim (0.2ms)
+Completed 200 OK in 83ms (Views: 80.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-07-26 01:34:11 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"swfjq3E+FhMfzQDwlwwSfu2qg4DF4MIFD1Q/jLG7aXFCh/tvpp8hS0LXlzEOEIN7bxuetw+DR80BtnlLLxs9Sg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-26 01:34:11 +0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-26 01:34:11 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.slim within layouts/application (24.5ms)
+Completed 200 OK in 116ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-07-26 01:34:13 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Uvu+j/7aDo+YB5sG6w3Y6BA1jaH/Nrk1npkCUbDU9+QdcPgzWTdjnErPCi9UJ/U6vRigzRjsO4nfRvG6I2P+iA==", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"登录"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'admin@admin.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2016-07-25 17:03:40', `current_sign_in_at` = '2016-07-25 17:34:13', `sign_in_count` = 18, `updated_at` = '2016-07-25 17:34:13' WHERE `users`.`id` = 2
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 104ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-26 01:34:13 +0800
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT `articles`.* FROM `articles`  ORDER BY `articles`.`id` DESC[0m
+  Rendered home/index.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 99ms (Views: 96.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-07-26 01:34:16 +0800
+Processing by Admin::HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered admin/home/index.html.erb within layouts/admin (0.1ms)
+  Rendered template/_header.html.slim (0.2ms)
+Completed 200 OK in 75ms (Views: 72.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-07-26 01:34:16 +0800
+Processing by Admin::HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered admin/home/index.html.erb within layouts/admin (0.1ms)
+  Rendered template/_header.html.slim (0.2ms)
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.3ms)
