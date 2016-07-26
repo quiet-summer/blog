@@ -15,3 +15,6 @@ zh-CN:
       defaults:
         password: '密码'
         password_confirmation: '确认密码'
+      article:
+        content: '内容'
+        title: '标题'

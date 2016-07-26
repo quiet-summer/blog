@@ -8,7 +8,7 @@
     tbody
       - @articles.each do |article|
         tr
-          td = article.title
+          td = truncate article.title, length: 16
           td = truncate article.content, length: 16
           td
            .ui.buttons

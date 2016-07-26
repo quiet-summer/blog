@@ -1,0 +1,13 @@
+.home{
+  padding: 50px;
+  left: 150px;
+  position: relative;
+  .item{
+    max-height: 300px;
+    overflow: hidden;
+    .title{
+      background-color: rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+  }
+}

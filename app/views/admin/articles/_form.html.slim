@@ -9,3 +9,5 @@
         = f.text_area :content
       .field
         = f.submit '保存', class: 'ui red button'
+      .field.text-red
+        = @article.errors.map{ |_,message| message }.join(' ')

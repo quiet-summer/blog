@@ -3,7 +3,7 @@ module Admin
     before_action :find_article, except: [:index, :new, :create]
 
     def index
-      @articles = Article.all.order(id: :desc).page(params[:page]).per(10)
+      @articles = Article.all.page(params[:page]).per(10)
     end
 
     def new
