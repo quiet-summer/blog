@@ -5,5 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-User.create(email: 'admin@admin.com', password: '12345678')
-100.times.each{|i| Article.create(title:"标题#{i}", content: "内容#{i}") }
+User.find_or_create_by(email: 'admin@admin.com', password: '12345678')
+100.times.each{|i| Article.find_or_create_by(title:"标题#{i}", content: "内容#{i}") }
