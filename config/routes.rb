@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   devise_for :users
 
+  get 'blog/:id' => 'home#blog'
+
   namespace :admin do
     root 'home#index'
     resources :articles

@@ -1,8 +1,9 @@
 .ui.divided.items.home
   - @articles.each do |article|
-    .item
-      .ui.tiny.content.title
-        = article.title
-      .middle.aligned.content
-        a.header
-          = article.content
+    a href="/blog/#{article.id}"
+      .item
+        .ui.tiny.content.title
+          = article.title
+        .middle.aligned.content
+          a.header
+            = article.content

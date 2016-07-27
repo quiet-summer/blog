@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
 
   #登录成功后
   def after_sign_in_path_for(resource_or_scope)
-   admin_root_path
+    admin_root_path
   end
 
 end
