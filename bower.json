@@ -1,0 +1,17 @@
+{
+  "name": "Blog",
+  "version": "1.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "simditor": "https://github.com/mycolorway/simditor.git",
+    "toastr": "~2.0.1"
+  }
+}

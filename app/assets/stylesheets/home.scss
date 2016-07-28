@@ -8,6 +8,20 @@
     .title{
       background-color: rgba(0, 0, 0, 0.1);
       text-align: center;
+      color: rgb(85, 52, 51);
+      font-size: 1em;
+    }
+    .content{
+      line-height: 2em;
+      font-size: .9em;
     }
   }
+}
+
+.blog{
+    left: 100px;
+    margin-right: 200px !important;
+    top: 100px;
+    min-height: 500px;
+    line-height: 3em;
 }

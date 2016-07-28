@@ -2,43 +2,28 @@ module Admin
   class ArticlesController < AdminController
     before_action :find_article, except: [:index, :new, :create]
 
-    def index
-      @articles = Article.all.page(params[:page]).per(10)
-    end
+    def index; @articles = Article.all.page(params[:page]).per(10); end
 
-    def new
-      @article = Article.new
-    end
+    def new; @article = Article.new; end
 
-    def show
-    end
+    def show; end
 
     def create
       @article = Article.new(article_param)
-      if @article.save
-        operate_success
-      else
-        render 'new', alert: '创建失败'
-      end
+      return operate_success if @article.save
+      render 'new', alert: '创建失败'
     end
 
-    def edit
-    end
+    def edit; end
 
     def update
-      if @article.update(article_param)
-        operate_success
-      else
-        render 'index', alert: '删除失败'
-      end
+      return operate_success if @article.update(article_param)
+      render 'index', alert: '删除失败'
     end
 
     def destroy
-      if @article.destroy
-        operate_success
-      else
-        render 'index', alert: '删除失败'
-      end
+      return operate_success if @article.destroy
+      render 'index', alert: '删除失败'
     end
 
     private

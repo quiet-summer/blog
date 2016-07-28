@@ -37,6 +37,10 @@ gem 'slim-rails'
 gem 'semantic-ui-rails'
 gem 'less-rails'
 gem 'simple_form'
+
+gem 'ransack'
+
+gem 'simditor'
 # gem 'semantic-ui-sass', github: 'bestjane/semantic-ui-sass'
 
 group :doc do

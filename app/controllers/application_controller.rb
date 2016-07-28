@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   before_action :authenticate_user!
 
-  #登录成功后
+  #登录成功后跳转到后台
   def after_sign_in_path_for(resource_or_scope)
     admin_root_path
   end

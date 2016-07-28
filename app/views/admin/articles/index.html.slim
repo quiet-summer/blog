@@ -4,12 +4,16 @@
       tr
         th 标题
         th 内容
+        th 创建时间
+        th 最后修改时间
         th 操作
     tbody
       - @articles.each do |article|
         tr
           td = truncate article.title, length: 16
           td = truncate article.content, length: 16
+          td = article.created_at.strftime('%Y-%m-%d %H:%M:%S')
+          td = article.updated_at.strftime('%Y-%m-%d %H:%M:%S')
           td
            .ui.buttons
              = link_to '删除', admin_article_path(article.id), method: 'delete', class: 'ui button small red'

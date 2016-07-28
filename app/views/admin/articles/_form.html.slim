@@ -5,9 +5,24 @@
         label 标题
         = f.text_field :title
       .inline.field
-        label 内容
+        label 正文
         = f.text_area :content
       .field
         = f.submit '保存', class: 'ui red button'
       .field.text-red
         = @article.errors.map{ |_,message| message }.join(' ')
+
+javascript:
+  var editor = new Simditor({
+    textarea: $('#article_content'),
+    toolbar: ['title', 'bold', 'italic', 'underline', 'strikethrough', 'color', '|', 'ol', 'ul', 'blockquote', 'code', 'table', 'link','image', '|','hr','indent','outdent','alignment','fullscreen'],
+    placeholder: '请输入正文',
+    defaultImage: '/image.png',
+    pasteImage: true,
+    fileKey: 'upload_file',
+    upload: {
+      url: '/upload',
+      params: null,
+      leaveConfirm: '正在上传文件，如果离开上传会自动取消'
+    }
+  });
