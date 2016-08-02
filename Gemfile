@@ -41,6 +41,8 @@ gem 'simple_form'
 gem 'ransack'
 
 gem 'simditor'
+
+gem 'time_ago_in_words'
 # gem 'semantic-ui-sass', github: 'bestjane/semantic-ui-sass'
 
 group :doc do

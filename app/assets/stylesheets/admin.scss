@@ -1,5 +1,5 @@
 /*
- *= require ./admin
+ *= require_tree ./admin
  *= require ./semantic-ui.css.less
  *= require simditor
 */
@@ -31,7 +31,7 @@ header .menu{
 }
 .wrap{
   position: relative;
-  left: 100px;
+  left: 190px;
   width: 1000px;
 }
 

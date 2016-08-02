@@ -43,7 +43,6 @@
     "commit": "1d7d792972598099a714d6fcde1932c070cb008e"
   },
   "_source": "https://github.com/mycolorway/simditor.git",
-  "_target": "^2.3.6",
-  "_originalSource": "simditor",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "https://github.com/mycolorway/simditor.git"
 }

@@ -1,0 +1,25 @@
+.admin-home
+  .four.column.stackable.ui.grid.reports
+    .column
+      .ui.segment
+        p 总访问数
+        h1 1111
+        hr
+        p 今日新增用户
+        h1 999
+    .column.reports-users
+      .ui.segment
+        p 总浏览数
+        h1 111
+        hr
+        p 总访问数
+        h1 293
+  .column
+    .ui.segment
+      .ui.label = "#{'当前用户 ' }"
+      p
+        = current_user.email
+      .ui.teal.label 上次登录时间
+      p #{time_ago_in_words current_user.last_sign_in_at}前
+      .ui.red.label 上次登录ip
+      p = current_user.last_sign_in_ip

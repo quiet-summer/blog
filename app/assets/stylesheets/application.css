@@ -1,7 +1,7 @@
 /*
  *= require_self
- *= require ./semantic-ui.css.less
  *= require home
+ *= require ./semantic-ui.css.less
  */
  body{
     background-color: rgb(122, 156, 131);

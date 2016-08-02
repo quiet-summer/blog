@@ -1,4 +1,16 @@
+
 .articles.wrap
+  = search_form_for [:admin, @q], html:{class: 'ui form'} do |f|
+    .inline.fields
+      .two.field
+        label 标题:
+        = f.text_field 'title_cont', placeholder: '请输入标题'
+      .two.field
+        label 内容:
+        = f.text_field 'content_cont', placeholder: '请输入内容'
+      button.ui.teal.submit.button.small 搜索
+
+  hr
   table.ui.very.basic.table
     thead
       tr

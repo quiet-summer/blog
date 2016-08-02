@@ -2,7 +2,10 @@ module Admin
   class ArticlesController < AdminController
     before_action :find_article, except: [:index, :new, :create]
 
-    def index; @articles = Article.all.page(params[:page]).per(10); end
+    def index
+      @q = Article.all.ransack(params[:q])
+      @articles = @q.result.page(params[:page]).per(8)
+    end
 
     def new; @article = Article.new; end
 
